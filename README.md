@@ -1,5 +1,5 @@
 # XNAUtils
-A library of various classes meant to make life in XNA just a little easier.
+A library of classes meant to make life in XNA just a little easier.
 
 ## Included Modules
 
