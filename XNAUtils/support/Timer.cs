@@ -1,4 +1,11 @@
-﻿using System;
+﻿#region File Info
+/*
+ * Timer.cs
+ * Author: Evan Shimizu, 2010-2012
+ */
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -157,6 +164,10 @@ namespace XNAUtils.support
         public void reset() { elapsed = new TimeSpan(); }
     }
 
+    /// <summary>
+    /// An int timer executes a function that takes a single integer parameter.
+    /// This is an example of how to extend the timer class to use different delegate types
+    /// </summary>
     public class IntTimer : Timer
     {
         #region Fields
@@ -170,7 +181,7 @@ namespace XNAUtils.support
 
         /// <summary>
         /// Creates a timer that uses a single int param as the delegate argument
-        /// Esentially wraps the parameter into a void lambda function to reuse as much
+        /// Esentially wraps the parameter into a void anonymous function to reuse as much
         /// code as possible.
         /// </summary>
         public IntTimer(TimeSpan interval, IntAct action, int param) : base(interval)

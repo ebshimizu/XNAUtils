@@ -1,4 +1,12 @@
-﻿using System;
+﻿#region File Info
+/*
+ * Particle.cs
+ * Author: Evan Shimizu, 2012
+ * Loosely based off Tigran Gasparian's particle system: http://blog.tigrangasparian.com/2010/10/08/2d-particles-in-xna-part-1-of-3/
+ */
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

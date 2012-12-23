@@ -17,6 +17,8 @@ A library of classes meant to make life in XNA just a little easier.
 This collection of utilities is distributed as source. To use, copy the desired parts over to your project and make sure to put the correct `using` statements in the files where you're using these utilities.
 Some of the classes use files in the `util_content` folder. You can replace these with your own instances, or use the ones provided in the `util_content` folder here.
 
+The code is distributed as a XNA Game Class Library, but that project is mainly for code editing assistance. (You can create a library if you want, it does compile.)
+
 ## Module Notes
 
 ### ScreenManager and MenuScreen

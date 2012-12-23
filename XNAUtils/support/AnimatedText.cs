@@ -1,4 +1,11 @@
-﻿using System;
+﻿#region File Info
+/*
+ * AnimatedText.cs
+ * Author: Evan Shimizu, 2012
+ */
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
