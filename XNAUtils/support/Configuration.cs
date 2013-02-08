@@ -27,7 +27,7 @@ namespace XNAUtils.support
         private const bool DEFAULT_FULL = false;
         private const bool DEFAULT_VSYNC = true;
         private const bool DEFAULT_AA = true;
-        private const string DEFAULT_WIN_TITLE = "Pipes";
+        private const string DEFAULT_WIN_TITLE = "XNA Game";
         private static Color DEFAULT_BACK_COLOR = Color.Black;
 
         public int screenWidth = DEFAULT_SCREEN_WIDTH;
